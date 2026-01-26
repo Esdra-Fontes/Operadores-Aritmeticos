@@ -13,6 +13,11 @@ Operadores-Matematicos/
 │
 ├── index.html ├── css/ │ └── style.css
 
+▶️ Como Executar o Projeto:
+- Clone este repositório: git clone https://github.com/Esdra-Fontes/Operadores-Matematicos.git
+- Acesse a pasta do projeto
+- Abra o arquivo index.html em qualquer navegador web
+
 📚 Aprendizados:
 - Operadores matemáticos básicos
 
