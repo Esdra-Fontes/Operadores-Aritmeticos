@@ -1,4 +1,4 @@
-🧮 Operadores Matemáticos:  
+🧮 Operadores Aritméticos:  
 Este repositório contém um projeto focado no aprendizado e prática dos **operadores matemáticos básicos**, aplicados à lógica de programação. Ele foi criado com fins educacionais, ajudando a compreender como operações matemáticas são utilizadas no desenvolvimento de software.
 
 📌 Objetivo do Projeto:  
