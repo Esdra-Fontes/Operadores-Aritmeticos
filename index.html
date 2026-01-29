@@ -33,13 +33,23 @@
                 const n1 = document.getElementById('n1').value
                 const n2 = document.getElementById('n2').value
                 const porcentagem = Number(n1) % Number(n2)
-                document.getElementById('resultadoPorcentagem').innerHTML = "A porcentagem dos números é: " + porcentagem
+                document.getElementById('resultadoPorcentagem').innerHTML = "O módulo dos números é: " + porcentagem
             }
              function exponencial(){
                 const n1 = document.getElementById('n1').value
                 const n2 = document.getElementById('n2').value
                 const exponencial = Number(n1) ** Number(n2)
-                document.getElementById('resultadoExponencial').innerHTML = "A exponencial dos números é: " + exponencial
+                document.getElementById('resultadoExponencial').innerHTML = "A exponenciação dos números é: " + exponencial
+            }
+             function incremento(){
+                let n1 = Number(document.getElementById('n1').value)
+                let n2 = Number(document.getElementById('n2').value)
+                n1++ ; n2++ ; document.getElementById('resultadoIncremento').innerHTML = "O incremento dos números é: " + n1 + " e " + n2
+            }
+             function decremento(){
+                let n1 = Number(document.getElementById('n1').value)
+                let n2 = Number(document.getElementById('n2').value)
+                n1-- ; n2-- ; document.getElementById('resultadoDecremento').innerHTML = "O decremento dos números é: " + n1 + " e " + n2
             }
         </script>
     </head>
@@ -50,13 +60,14 @@
         <form class="n1n2">
             N1: <input type="text" id="n1" />
             N2: <input type="text" id="n2" />
-
-            <input type="button" value="Somar" onclick="somar()">
-            <input type="button" value="Subtrair" onclick="subtrair()">
-            <input type="button" value="Multiplicar" onclick="multiplicar()">
-            <input type="button" value="Dividir" onclick="dividir()">
-            <input type="button" value="Porcentagem" onclick="porcentagem()">
-            <input type="button" value="Exponencial" onclick="exponencial()">
+            <input type="button" value="Somar(+)" onclick="somar()">
+            <input type="button" value="Subtrair(-)" onclick="subtrair()">
+            <input type="button" value="Multiplicar(x)" onclick="multiplicar()">
+            <input type="button" value="Dividir(/)" onclick="dividir()">
+            <input type="button" value="Módulo(%)" onclick="porcentagem()">
+            <input type="button" value="Exponencial(**)" onclick="exponencial()">
+            <input type="button" value="Incremento(++)" onclick="incremento()">
+            <input type="button" value="Decremento(--)" onclick="decremento()">
         </form>
         <main>
             <div class="container">
@@ -64,8 +75,10 @@
                 <h2 id="resultadoSubtracao">A subtração dos números é: ?</h2>
                 <h2 id="resultadoMultiplicacao">A multiplicação dos números é: ?</h2>
                 <h2 id="resultadoDivisao">A divisão dos números é: ?</h2>
-                <h2 id="resultadoPorcentagem">A porcentagem dos números é: ?</h2>
-                <h2 id="resultadoExponencial">A exponencial dos números é: ?</h2>
+                <h2 id="resultadoPorcentagem">O módulo dos números é: ?</h2>
+                <h2 id="resultadoExponencial">A exponenciação dos números é: ?</h2>
+                <h2 id="resultadoIncremento">O incremento dos números é: ?</h2>
+                <h2 id="resultadoDecremento">O decremento dos números é: ?</h2>
             </div>
         </main>
         <footer>
