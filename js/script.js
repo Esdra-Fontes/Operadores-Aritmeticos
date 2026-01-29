@@ -16,11 +16,15 @@ const n2 = document.getElementById('n2').value
 const multiplicar = Number(n1) * Number(n2)
 document.getElementById('resultadoMultiplicacao').innerHTML = "A multiplicação dos números é: " + multiplicar
 }
-function dividir(){
-const n1 = document.getElementById('n1').value
-const n2 = document.getElementById('n2').value
-const dividir = Number(n1) / Number(n2)
-document.getElementById('resultadoDivisao').innerHTML = "A divisão dos números é: " + dividir
+function dividir() {
+const n1 = Number(document.getElementById('n1').value)
+const n2 = Number(document.getElementById('n2').value)
+    if (n2 === 0) {
+        document.getElementById('resultadoDivisao').innerHTML = 'A divisão dos números é: Erro, divisão por zero não existe!'
+        return
+    }
+const resultado = n1 / n2
+document.getElementById('resultadoDivisao').innerHTML = "A divisão dos números é: " + resultado
 }
 function porcentagem(){
 const n1 = document.getElementById('n1').value
