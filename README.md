@@ -1,12 +1,12 @@
-🌐 **Operadores Aritméticos**
+🌐 Operadores Aritméticos:
 ---
 Este repositório contém um projeto focado no aprendizado e prática dos operadores aritméticos em JavaScript, demonstrando como realizar cálculos matemáticos básicos e avançados utilizando operadores como adição, subtração, multiplicação, divisão, módulo, exponenciação, incremento e decremento.
 
-📌 **Objetivo do Projeto**
+📌 Objetivo do Projeto:
 ---
 O objetivo deste projeto é demonstrar o funcionamento dos principais operadores aritméticos e sua aplicação em exercícios práticos, servindo como base para estudos iniciais em programação e raciocínio lógico no desenvolvimento de software.
 
-🛠️ **Tecnologias Utilizadas**
+🛠️ Tecnologias Utilizadas:
 ---
 - **HTML5** – Estrutura das páginas  
 - **CSS3** – Estilização e layout  
