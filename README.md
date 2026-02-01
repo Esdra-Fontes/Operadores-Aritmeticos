@@ -27,6 +27,6 @@ Operadores-Aritmeticos/ │ ├── index.html ├── css/ │ └── st
 - Operadores matemáticos básicos em programação
 - Aplicação prática de cálculos com JavaScript
 - Manipulação de valores e lógica computacional
-- Organização de arquivos em um projeto web
+- Boas práticas na organização de projetos web
 
 👤 Autor: Esdra Fontes
